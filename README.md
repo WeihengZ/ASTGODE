@@ -7,16 +7,25 @@ Download the dataset from goolge drive: https://drive.google.com/drive/folders/1
 # Experiment
 
 To reproduce the results of this work, you can simply run main.py. If you are interested in model training without adjoint sensitivity method, simply run:
-'''
+```
 python main.py --case='PEMS04' --adjoint=1
 python main.py --case='PEMS_bay' --adjoint=1
-'''
+```
 
 If you are interested in model training with adjoint sensitivity method, simply run:
-
-'''
+```
 python main.py --case='PEMS04' --adjoint=1
 python main.py --case='PEMS_bay' --adjoint=1
-'''
+```
 
-Please consider cite our paper if our codes help
+If you make advantage of the ASTGODE in your research, please consider citing our paper in your manuscript:
+```
+@misc{zhong2023attentionbased,
+      title={Attention-based Spatial-Temporal Graph Neural ODE for Traffic Prediction}, 
+      author={Weiheng Zhong and Hadi Meidani and Jane Macfarlane},
+      year={2023},
+      eprint={2305.00985},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
