@@ -14,8 +14,8 @@ python main.py --case='PEMS_bay' --adjoint=1
 
 If you are interested in model training with adjoint sensitivity method, simply run:
 ```
-python main.py --case='PEMS04' --adjoint=1
-python main.py --case='PEMS_bay' --adjoint=1
+python main.py --case='PEMS04' --adjoint=0
+python main.py --case='PEMS_bay' --adjoint=0
 ```
 
 If you make advantage of the ASTGODE in your research, please consider citing our paper in your manuscript:
