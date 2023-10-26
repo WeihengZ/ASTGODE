@@ -2,4 +2,21 @@ This is implementation of ASTGODE of the paper: Attention-based Spatial-Temporal
 
 # Data preparation
 
-Download the dataset from goolge drive: https://drive.google.com/drive/folders/1CtFU_peMpiu0u3w9NhxZfRLyBQsb-kcz. 
+Download the dataset from goolge drive: https://drive.google.com/drive/folders/1CtFU_peMpiu0u3w9NhxZfRLyBQsb-kcz. Put them in the folder named "data".
+
+# Experiment
+
+To reproduce the results of this work, you can simply run main.py. If you are interested in model training without adjoint sensitivity method, simply run:
+'''
+python main.py --case='PEMS04' --adjoint=1
+python main.py --case='PEMS_bay' --adjoint=1
+'''
+
+If you are interested in model training with adjoint sensitivity method, simply run:
+
+'''
+python main.py --case='PEMS04' --adjoint=1
+python main.py --case='PEMS_bay' --adjoint=1
+'''
+
+Please consider cite our paper if our codes help
